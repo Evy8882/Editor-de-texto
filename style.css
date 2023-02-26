@@ -1,0 +1,99 @@
+body{
+    font: normal 10pt arial;
+    /* background: white; */
+}
+
+.editBarButton{
+    border: none;
+    text-align: center;
+    font-size: large;
+    width: 45px;
+    height: 45px;
+    background: rgb(186, 121, 247);
+    border-radius: 15px;
+    transition: 100ms;
+    box-shadow: 0px 3px 0px 1px;
+    cursor: pointer;
+}
+
+.editBarButton:hover,
+.editBarButton:focus{
+    background: rgb(168, 98, 233);
+    border: solid;
+    border-color: rgb(106, 7, 199);
+}
+.editBar{
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    border: solid;
+    border-color: rgb(106, 7, 199);
+    border-radius: 15px;
+    margin: auto;
+}
+.personalizacao{
+    text-align: left;
+    margin: 10px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 5px;
+}
+
+#text{
+    height: 100px;
+}
+
+input#txti,
+textarea{
+    background-color: rgb(207, 207, 207);
+    border: solid;
+    border-width: 1px;
+}
+input#txti:focus,
+textarea:focus{
+    background-color: rgb(180, 180, 180);
+}
+
+input:hover,
+textarea:hover{
+    outline: solid;
+    outline-color: white;
+    outline-width: 1px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 2px;
+}
+
+.confirm{
+    background-color: blue;
+    border: none;
+    width: 86%;
+    height: 38px;
+    border-radius: 99px;
+    transition: 90ms;
+}
+.confirm:hover,
+.confirm:focus{
+    background-color: rgb(7, 7, 190);
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    outline: solid;
+    outline-color: black;
+    height: 45px;
+}
+
+.text{
+    margin: 6px;
+    text-align: left;
+    background-color: rgb(214, 214, 214);
+    border: solid;
+    border-color: rgb(214, 214, 214);
+    border-width: 10px;
+    border-radius: 5px;
+}
+.textTitle{
+    text-align: center;
+}
+
+textarea{
+    width: 98%;
+}
